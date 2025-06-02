@@ -27,23 +27,27 @@ def main():
             "Outside of work, you can find me reading, playing video games, rock climbing, training BJJ or Muay Thai, or testing my patience in a fencing class.\n"
             "I believe hobbies and curiosity fuel creativity, which is evident in my projects and in my demonstrated continued learning beyond traditional schooling."
         )
+
     elif menu == "Skills":
         st.title("Skills")
         st.write("I bring a hands-on, problem solving approach to IT and cybersecurity. I have a particular interest in automation, identity management, and threat detection.\n"
                 "These are some of the tools I have used in real world environments, personal projects, and security labs. \n"
                 "Whatever task I work on, I aim to combine reliability with curiosity in everything I do.")
         st.subheader("SIEM")
-        st.write("- Microsoft Sentinel, KQL, Splunk")
+        st.write("- Microsoft Sentinel: KQL based alerts and Azure playbooks for real time monitoring.")
+        st.write("- Splunk")
         st.subheader("EDR & XDR")
-        st.write("- Microsoft Defender, Perception Point, Crowdstrike Falcon")
+        st.write("- Microsoft Defender: Endpoint protection, investigation, and response.")
+        st.write("- Perception Point, Crowdstrike Falcon")
         st.subheader("Threat Detection & Response")
-        st.write("- Incident triage, alert investigation, escalation procedures")
+        st.write("- Incident triage, alert investigation, escalation procedures.")
         st.subheader("IAM")
-        st.write("- Okta administration, Active Directory, SSO provisioning")
+        st.write("- Okta administration and access reviews, Active Directory, SSO provisioning")
         st.subheader("Cloud Security")
         st.write("- Orca security, Microsoft Purview")
         st.subheader("Security Frameworks")
         st.write("- Basic understanding of NIST, MITRE ATT&CK")
+
     elif menu == "Projects":
         st.title("Projects")
         st.subheader("Inventory Tracker & Dashboard")
@@ -58,12 +62,14 @@ def main():
         st.subheader("SOC Log Analyzer")
         st.write("In production")
         st.write("GitHub Repo: [Link](https://github.com/yourusername/project2)")
+
     elif menu == "Contact":
         st.title("Get in Touch!")
         st.write("Thanks for checking out my portfolio. If you have any questions, feedback, or just want to connect, feel free to reach out!")
         st.write("Email: nathanieljrodriguez@gmail.com")
         st.write("LinkedIn: [Nathaniel](https://www.linkedin.com/in/nathaniel-rodriguez71594/)")
         st.write("Whether it's for a collab, a job opportunity, or just a nerdy conversation about building tools that solve problems, I'd love to hear from you!")
+
         download_pdf()
 
 if __name__ == "__main__":
