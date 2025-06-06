@@ -50,18 +50,23 @@ def main():
 
     elif menu == "Projects":
         st.title("Projects")
-        st.subheader("Inventory Tracker & Dashboard")
+        st.subheader("1. Inventory Tracker & Dashboard")
         st.write("Designed a CLI tool to manage product inventory using CSV files. Integrated add/edit/delete/search\n"
                  "function and validations to prevent data entry errors. Features include a web dashboard to help identify stock\n"
                  "readily available, in need of repair, and in transit.")
         st.write("GitHub Repo: [Link](https://github.com/yourusername/project1)")
-        st.subheader("Expense Tracker")
+        st.subheader("2. Expense Tracker")
         st.write("Built a script to track personal expenses with add/view,delete functionality.\n"
                  "Implemented Pandas for data handling and Streamlit for UI. Future updates include charts and export options.")
-        st.write("GitHub Repo: [Link](https://github.com/yourusername/project2)")
-        st.subheader("SOC Log Analyzer")
-        st.write("In production")
-        st.write("GitHub Repo: [Link](https://github.com/yourusername/project2)")
+        st.write("GitHub Repo: [Link](https://github.com/Ready2Pound/expense_tracker)")
+        st.subheader("3. SOC Log Analyzer")
+        st.write("Developed a Python log parser to extract and organize key system data (IPs, timestamps, user activity), enabling automated analysis and reporting.\n"
+                "Enhanced scripting and data processing skills.")
+        st.write("GitHub Repo: [Link](https://github.com/Ready2Pound/log_parser)")
+        st.subheader("4. Brazilian Jiu Jitsu Trivia Game")
+        st.write("This BJJ Quiz Game is a fun quiz that tests your knowledge of Brazilian Jiu-Jitsu with easy and hard difficulty modes.\n" 
+                 "Available via a CLI interface and a Streamlit web app, it tracks your score and time to keep your progressing skills motivated.")
+        st.write("GitHub Repo: [Link](https://github.com/Ready2Pound/bjj_quiz)")
 
     elif menu == "Contact":
         st.title("Get in Touch!")
