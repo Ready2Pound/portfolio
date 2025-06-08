@@ -63,7 +63,11 @@ def main():
         st.write("Developed a Python log parser to extract and organize key system data (IPs, timestamps, user activity), enabling automated analysis and reporting.\n"
                 "Enhanced scripting and data processing skills.")
         st.write("GitHub Repo: [Link](https://github.com/Ready2Pound/log_parser)")
-        st.subheader("4. Brazilian Jiu Jitsu Trivia Game")
+        st.subheader("4. Lightweight SIEM Dashboard")
+        st.write("Lightweight SIEM dashboard built on top of the Log Analyzer in project 3, using Python and Streamlit. Parses log filed, counts total and unique IP's, and provides visualisations.\n" 
+                 "Offers an interactive dashboard for quick analysis Future updtes in development.")
+        st.write("GitHub Repo: [Link](https://logparser-ge7jvf3xf7buemnrdppki2.streamlit.app/)")
+        st.subheader("5. Brazilian Jiu Jitsu Trivia Game")
         st.write("This BJJ Quiz Game is a fun quiz that tests your knowledge of Brazilian Jiu-Jitsu with easy and hard difficulty modes.\n" 
                  "Available via a CLI interface and a Streamlit web app, it tracks your score and time to keep your progressing skills motivated.")
         st.write("GitHub Repo: [Link](https://github.com/Ready2Pound/bjj_quiz)")
