@@ -69,7 +69,7 @@ def main():
         st.write("GitHub Repo: [Link](https://logparser-ge7jvf3xf7buemnrdppki2.streamlit.app/)")
         st.subheader("5. Brazilian Jiu Jitsu Trivia Game")
         st.write("This BJJ Quiz Game is a fun quiz that tests your knowledge of Brazilian Jiu-Jitsu with easy and hard difficulty modes.\n" 
-                 "Available via a CLI interface and a Streamlit web app, it tracks your score and time to keep your progressing skills motivated.")
+                 "Available via a CLI interface and a Streamlit web app, it tracks your score and time to keep your progressing skills motivated")
         st.write("GitHub Repo: [Link](https://github.com/Ready2Pound/bjj_quiz)")
 
     elif menu == "Contact":
