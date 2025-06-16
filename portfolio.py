@@ -54,6 +54,10 @@ def main():
         st.write("Designed a CLI tool to manage product inventory using CSV files. Integrated add/edit/delete/search\n"
                  "function and validations to prevent data entry errors. Features include a web dashboard to help identify stock\n"
                  "readily available, in need of repair, and in transit.")
+        st.image("images/5.png", caption="Autnetication needed to access the dashboard")
+        st.image("images/4.png", caption="Dashboard showing key metrics")
+        st.image("images/2.png", caption="Form to add new products")
+        st.image("images/1.png", caption="View all products in the inventory")
         st.write("GitHub Repo: [Link](https://github.com/yourusername/project1)")
         st.subheader("2. Expense Tracker")
         st.write("Built a script to track personal expenses with add/view,delete functionality.\n"
@@ -66,6 +70,8 @@ def main():
         st.subheader("4. Lightweight SIEM Dashboard")
         st.write("Lightweight SIEM dashboard built on top of the Log Analyzer in project 3, using Python and Streamlit. Parses log filed, counts total and unique IP's, and provides visualisations.\n" 
                  "Offers an interactive dashboard for quick analysis Future updtes in development.")
+        st.video("images/log_parser_demo_pt1.mov")
+        st.video("images/log_parser_demo_pt2.mov")
         st.write("GitHub Repo: [Link](https://logparser-ge7jvf3xf7buemnrdppki2.streamlit.app/)")
         st.subheader("5. Brazilian Jiu Jitsu Trivia Game")
         st.write("This BJJ Quiz Game is a fun quiz that tests your knowledge of Brazilian Jiu-Jitsu with easy and hard difficulty modes.\n" 
